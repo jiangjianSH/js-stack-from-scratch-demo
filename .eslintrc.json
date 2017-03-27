@@ -10,9 +10,11 @@
 	"rules": {
 		"semi": [2, "never"],
 		"no-unexpected-multiline": 2,
-		"compat/compat": 2
+		"compat/compat": 2,
+		"new-cap": 0
 	},
 	"env": {
-		"jest": true
+		"jest": true,
+		"browser": true
 	}
 }
